@@ -1,12 +1,13 @@
 body{
     background-color: #f0f0f0;
-    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Futura-pt","Avenir",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #main{
     background-color: #fff;
-    max-width: 83%;
+    max-width: 65%;
     margin: auto;
+    height: auto;
 }
 
 
@@ -19,17 +20,16 @@ body{
     padding: 5px 10px;
 }
 
-.navbar-nav .nav-link{
-    margin: 0 10px;
-    padding-top: 10px;
-    font-weight: 550;
-    font-size:1.25rem;
-    line-height: 1.5;
-    color: inherit;
+.laranja{
+    color: #ff764d;
 }
 
-#more{
-    color: #ff764d;
+.navbar-nav .nav-link{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 30px;
+    margin-right: 1.5em;
+    color: inherit;
 }
 
 #trial{
@@ -42,6 +42,48 @@ body{
 }
 
 .nav_separator{
-    height: 0;
+    width: 100%;
     border-top: 2px solid #eee;
+}
+
+
+#under-nav ul li a {
+    margin-right: 1.5em;
+    color: inherit;
+    font-size: 15px;
+}
+
+/*
+Principal
+*/
+
+.capa {
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Ajuste a altura conforme necessário */
+}
+
+.texto-centralizado{
+    color: #e74e3e;
+    position: absolute;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.apresentacao{
+    width: 56%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 6em 0;
+}
+
+.apresentacao h4{
+    font-weight: 600;
+    font-size: 25px;
+    padding: 0 1em;    
+}
+
+.apresentacao p{
+    padding-top: 2em;
 }

@@ -17,15 +17,15 @@
 
 <body>
 
-    <div id="main" class="main-content d-flex align-items-center justify-content-center"><!--Corpo principal-->
+    <div id="main" class="main-content d-block align-items-center justify-content-center"><!--Corpo principal-->
         <header class="w-100"><!--Header-->
-            <nav class="navbar navbar-expand-md">
+            <nav class="navbar flex-column">
                 <div class="container-fluid">
                     <a href="#" class="navbar-brand"><img src="assets/abletonicon.svg" class="img-fluid" width="62"></a>
 
                         <ul class="navbar-nav">
 
-                            <li class="nav-item"><a href="#" class="nav-link">Live</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Live</a></li><!--Verificar o motivo pelo qual o conteudo de <a> tem padding-->
 
                             <li class="navbar-item"><a href="#" class="nav-link">Push</a></li>
 
@@ -41,7 +41,7 @@
 
                             <li class="navbar-item"><a href="#" class="nav-link">Help</a></li>
 
-                            <li class="navbar-item"><a href="#" class="nav-link" id="more">More +</a></li>
+                            <li class="navbar-item"><a href="#" class="nav-link" style="color: #ff764d;">More +</a></li>
 
                         </ul>
 
@@ -53,12 +53,44 @@
                         </ul>
                     
                 </div>
-            </nav>
 
-            <div class="nav_separator"></div>
+                <div class="nav_separator d-block"></div>
+                
+                <div class="container ml-3 pt-4 pb-3" id="under-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item laranja"><a href="#">About</a></li>
+                        <li class="nav-item pl-3"><a href="#">Jobs</a></li>
+                        <li class="nav-item pl-3"><a href="#">Apprenticeships</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
         </header><!--Header-->
 
+        <section id="principal"><!--Conteudo principal-->
+            <div class="capa d-flex">
+                <img src="assets/header.jpg" class="img-fluid">
+                <div class="texto-centralizado">Ableton</div>
+            </div>
+
+            <div class="apresentacao d-flex">
+                <h4>
+                    We make <a href="#">Live</a>, <a href="#">Push</a>, <a href="#">Note</a> and <a href="">link</a> - unique software and
+                    hardware for music cration and performance.
+                    With these products, our community of users creates amazing things.
+                </h4>
+
+                <p>
+                    Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used 
+                    by a community of dedicated musicians, sound designers, and artists from across the world.
+                </p>
+            </div>
+        </section><!--Conteudo principal-->
+
+
     </div><!--Corpo principal-->
+
+    
 </body>
 
 </html>
