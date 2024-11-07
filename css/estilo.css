@@ -5,7 +5,7 @@ body{
 
 #main{
     background-color: #fff;
-    max-width: 65%;
+    max-width: 75%;
     margin: auto;
     height: auto;
 }
@@ -58,6 +58,7 @@ Principal
 */
 
 .capa {
+    padding: 0 3em;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     height: 100%; /* Ajuste a altura conforme necessário */
@@ -79,11 +80,92 @@ Principal
 }
 
 .apresentacao h4{
+    line-height: 1.5;
     font-weight: 600;
     font-size: 25px;
     padding: 0 1em;    
 }
 
 .apresentacao p{
-    padding-top: 2em;
+    padding-top: 1.5em;
+}
+
+.fotos-apresenta{
+    padding: 5em;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.fotos-apresenta img{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.background {
+    background-color: #fbffa7; /* cor de fundo */
+    position: absolute;
+    top: 0;
+    left: 50%; /* Começa na metade da largura */
+    width: 50%; /* Ocupa a metade da largura */
+    height: 100%; /* Ocupa toda a altura da div pai */
+    z-index: 1; /* Fica atrás das imagens */
+}
+
+.video{
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.background-left{
+    background-color: #b6ffc0; /* cor de fundo */
+    position: absolute;
+    top: 0;
+    left: 0%; /* Começa na metade da largura */
+    width: 60%; /* Ocupa a metade da largura */
+    height: 100%; /* Ocupa toda a altura da div pai */
+    z-index: 1; /* Fica atrás das imagens */
+}
+
+.photo6{
+    margin: 0 4em;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.background-center{
+    background-color: #d5b3ff; /* cor de fundo */
+    position: absolute;
+    top: 0;
+    width: 60%; /* Ocupa a metade da largura */
+    height: 100%; /* Ocupa toda a altura da div pai */
+    z-index: 1; /* Fica atrás das imagens */
+}
+
+.latest-jobs{
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    background-color: #b1c5ff;
+    margin: auto;
+}
+
+.latest-jobs h4{
+    font-weight: bold;
+}
+
+.latest-jobs p{
+    margin-top: 2em;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.latest-text {
+    flex-direction: column;   /* Organiza o conteúdo do texto verticalmente */
+    justify-content: center;  /* Centraliza o conteúdo verticalmente */
+    height: 50%;             /* Ocupa toda a altura do contêiner pai */
+    margin: 3em;
+    padding: 4em;
 }
