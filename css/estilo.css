@@ -3,9 +3,14 @@ body{
     font-family: "Futura-pt","Avenir",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
 #main{
     background-color: #fff;
-    max-width: 75%;
+    max-width: 73%;
     margin: auto;
     height: auto;
 }
@@ -168,4 +173,20 @@ Principal
     height: 50%;             /* Ocupa toda a altura do contêiner pai */
     margin: 3em;
     padding: 4em;
+}
+
+/*
+Footer
+*/
+
+.all-foot li a{
+    color: inherit;
+}
+
+.first-row{
+    padding: 4em 3em;
+}
+
+.first-row ul li{
+    padding: auto;
 }
